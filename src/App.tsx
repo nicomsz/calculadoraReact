@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import { Calculator } from './components/calculator'
+import Calculator from './components/calculator'
 import './input.css'
 
 function App() {
