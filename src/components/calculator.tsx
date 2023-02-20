@@ -74,7 +74,7 @@ export default function Calculator () {
           <button 
             onClick={() => {
               storePreviousNumber()
-              setCurrentNumber(currentNumber + '+')}
+              setCurrentNumber(currentNumber + ' + ')}
               
               
             } 
@@ -83,7 +83,7 @@ export default function Calculator () {
           </button>
           <button onClick={() => {
               storePreviousNumber()
-              setCurrentNumber(currentNumber + '/')}
+              setCurrentNumber(currentNumber + ' / ')}
               
               
             } 
@@ -119,13 +119,13 @@ export default function Calculator () {
           <div className='col-span-1 space-y-3'>
             <button onClick={() => {
               storePreviousNumber()
-              setCurrentNumber(currentNumber + '-')}
+              setCurrentNumber(currentNumber + ' - ')}
               
               
             } className="rounded-full w-[60px] h-[60px] bg-dark-blue-200 shadow-button font-last-calc">-</button>
             <button onClick={() => {
               storePreviousNumber()
-              setCurrentNumber(currentNumber + '*')}
+              setCurrentNumber(currentNumber + ' * ')}
               
               
             } className="rounded-full w-[60px] h-[60px] bg-dark-blue-200 shadow-button font-last-calc">X</button>
